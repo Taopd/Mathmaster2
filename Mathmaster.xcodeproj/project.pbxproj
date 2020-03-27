@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D34A8AF92429E08400661416 /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8AF82429E08400661416 /* firstVC.swift */; };
+		D34A8AFB2429EE9F00661416 /* LevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8AFA2429EE9F00661416 /* LevelVC.swift */; };
+		D34A8AFD242A05B500661416 /* TypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8AFC242A05B500661416 /* TypeVC.swift */; };
+		D34A8AFF242A082100661416 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8AFE242A082100661416 /* SecondVC.swift */; };
+		D34A8B01242A09A100661416 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8B00242A09A100661416 /* ThirdVC.swift */; };
+		D34A8B03242A0AD600661416 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8B02242A0AD600661416 /* SuccessVC.swift */; };
+		D34A8B05242A102800661416 /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8B04242A102800661416 /* FourthVC.swift */; };
+		D34A8B07242A103800661416 /* FifthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8B06242A103800661416 /* FifthVC.swift */; };
+		D34A8B09242A129700661416 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A8B08242A129700661416 /* AboutVC.swift */; };
 		D36383D62429D92000D4E5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36383D52429D92000D4E5F9 /* AppDelegate.swift */; };
 		D36383D82429D92000D4E5F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36383D72429D92000D4E5F9 /* SceneDelegate.swift */; };
 		D36383DA2429D92000D4E5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36383D92429D92000D4E5F9 /* ViewController.swift */; };
@@ -16,7 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D36383D22429D92000D4E5F9 /* Mathmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34A8AF82429E08400661416 /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
+		D34A8AFA2429EE9F00661416 /* LevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelVC.swift; sourceTree = "<group>"; };
+		D34A8AFC242A05B500661416 /* TypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeVC.swift; sourceTree = "<group>"; };
+		D34A8AFE242A082100661416 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		D34A8B00242A09A100661416 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		D34A8B02242A0AD600661416 /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
+		D34A8B04242A102800661416 /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
+		D34A8B06242A103800661416 /* FifthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthVC.swift; sourceTree = "<group>"; };
+		D34A8B08242A129700661416 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		D36383D22429D92000D4E5F9 /* Math-masters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math-masters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36383D52429D92000D4E5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D36383D72429D92000D4E5F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D36383D92429D92000D4E5F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +66,7 @@
 		D36383D32429D92000D4E5F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D36383D22429D92000D4E5F9 /* Mathmaster.app */,
+				D36383D22429D92000D4E5F9 /* Math-masters.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +76,16 @@
 			children = (
 				D36383D52429D92000D4E5F9 /* AppDelegate.swift */,
 				D36383D72429D92000D4E5F9 /* SceneDelegate.swift */,
+				D34A8AF82429E08400661416 /* firstVC.swift */,
 				D36383D92429D92000D4E5F9 /* ViewController.swift */,
+				D34A8AFA2429EE9F00661416 /* LevelVC.swift */,
+				D34A8AFC242A05B500661416 /* TypeVC.swift */,
+				D34A8AFE242A082100661416 /* SecondVC.swift */,
+				D34A8B00242A09A100661416 /* ThirdVC.swift */,
+				D34A8B04242A102800661416 /* FourthVC.swift */,
+				D34A8B06242A103800661416 /* FifthVC.swift */,
+				D34A8B02242A0AD600661416 /* SuccessVC.swift */,
+				D34A8B08242A129700661416 /* AboutVC.swift */,
 				D36383DB2429D92000D4E5F9 /* Main.storyboard */,
 				D36383DE2429D92200D4E5F9 /* Assets.xcassets */,
 				D36383E02429D92200D4E5F9 /* LaunchScreen.storyboard */,
@@ -84,7 +111,7 @@
 			);
 			name = Mathmaster;
 			productName = Mathmaster;
-			productReference = D36383D22429D92000D4E5F9 /* Mathmaster.app */;
+			productReference = D36383D22429D92000D4E5F9 /* Math-masters.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,8 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34A8B07242A103800661416 /* FifthVC.swift in Sources */,
+				D34A8B05242A102800661416 /* FourthVC.swift in Sources */,
+				D34A8AFB2429EE9F00661416 /* LevelVC.swift in Sources */,
+				D34A8B03242A0AD600661416 /* SuccessVC.swift in Sources */,
 				D36383DA2429D92000D4E5F9 /* ViewController.swift in Sources */,
+				D34A8AFF242A082100661416 /* SecondVC.swift in Sources */,
+				D34A8AF92429E08400661416 /* firstVC.swift in Sources */,
+				D34A8B01242A09A100661416 /* ThirdVC.swift in Sources */,
+				D34A8B09242A129700661416 /* AboutVC.swift in Sources */,
 				D36383D62429D92000D4E5F9 /* AppDelegate.swift in Sources */,
+				D34A8AFD242A05B500661416 /* TypeVC.swift in Sources */,
 				D36383D82429D92000D4E5F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,15 +321,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L264F7U6G4;
 				INFOPLIST_FILE = Mathmaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kp.Mathmaster;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Math-masters";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,15 +340,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L264F7U6G4;
 				INFOPLIST_FILE = Mathmaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kp.Mathmaster;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Math-masters";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
